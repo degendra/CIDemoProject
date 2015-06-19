@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 
-@Config(emulateSdk = 15, reportSdk = 15)
+@Config(emulateSdk = 18, reportSdk = 18)
 @RunWith(RobolectricTestRunner.class)
 public class UserTest {
 
