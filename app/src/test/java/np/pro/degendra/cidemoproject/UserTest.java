@@ -20,4 +20,13 @@ public class UserTest {
         Assert.assertEquals("foo", u.getName());
     }
 
+    @Test
+    public void testUserNameTest2() {
+        User u = new User();
+
+        u.setName("foo");
+
+        Assert.assertEquals("foo", u.getName());
+    }
+
 }
