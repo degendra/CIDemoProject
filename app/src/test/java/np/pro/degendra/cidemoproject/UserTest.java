@@ -18,6 +18,11 @@ public class UserTest {
         u.setName("foo");
 
         Assert.assertEquals("foo", u.getName());
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @Test
